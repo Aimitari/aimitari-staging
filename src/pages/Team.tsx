@@ -14,7 +14,8 @@ const Team = () => {
     education: "Professor of Business at STI",
     bio: "More than 30 years of leadership experience in both Public and Private sectors. Appointments include Professor of Business at STI, Founder and Managing Director of Rohde & Schwarz and Centre Director at Singapore EDBI in Germany.",
     achievements: ["Professor at STI", "Former MD at Rohde & Schwarz", "Centre Director at Singapore EDBI"],
-    location: "Singapore"
+    location: "Singapore",
+    photo: "/src/assets/team/lim-boon-huat.jpg"
   }, {
     name: "Rajashekar Durai",
     role: "Chief Executive Officer",
@@ -23,16 +24,8 @@ const Team = () => {
     education: "Engineering & Product Development",
     bio: "More than 25 years of R&D and Product development experience building & assembling teams to bring the best entrepreneurial spirit resulting in an optimal and innovative solution/product with a stronger customer focus.",
     achievements: ["Product Development Leader", "Team Building Expert", "Innovation Driver"],
-    location: "Singapore"
-  }, {
-    name: "Brian James Tracey",
-    role: "Chief Operating Officer",
-    specialization: "Sports & Military Medical Practice",
-    experience: "30+ years",
-    education: "Medical Technology & Analytics",
-    bio: "More than 30 years of global Sports & Military Medical Practice experience, and has developed leading Medical Diagnostic Technologies and analytical software.",
-    achievements: ["Medical Diagnostics Pioneer", "Analytical Software Developer", "Global Medical Practice"],
-    location: "Singapore"
+    location: "Singapore",
+    photo: "/src/assets/team/rajashekar-durai.jpg"
   }, {
     name: "Ben Lim",
     role: "Chief Technology Officer",
@@ -41,7 +34,8 @@ const Team = () => {
     education: "R&D and Product Development",
     bio: "More than 20 years of R&D, Product development and Marketing experience. Specialize in semiconductor advanced packaging, assembly materials, power electronics and hard-disk media industry.",
     achievements: ["Semiconductor Expert", "Advanced Packaging Specialist", "Power Electronics Innovation"],
-    location: "Singapore"
+    location: "Singapore",
+    photo: "/src/assets/team/ben-lim.jpg"
   }, {
     name: "Dr. T. Ravintharan",
     role: "Chief Medical Officer",
@@ -50,44 +44,52 @@ const Team = () => {
     education: "Senior Consultant Surgeon",
     bio: "Senior Consultant Surgeon- Hand-Oncological-General-Advanced Laparoscopic Surgery with over 30 years experience at Mount Elizabeth Hospital in Singapore.",
     achievements: ["Senior Consultant Surgeon", "30+ Years Clinical Experience", "Mount Elizabeth Hospital"],
-    location: "Singapore"
+    location: "Singapore",
+    photo: "/src/assets/team/ravintharan.jpg"
   }];
   const advisors = [{
     name: "Sebastian Zilliacus",
     role: "Board Advisor",
     expertise: "Tech Startups & International BD",
-    affiliation: "20+ years driving tech startups to successful listings. Expertise in social networks, e-commerce, international BD"
+    affiliation: "20+ years driving tech startups to successful listings. Expertise in social networks, e-commerce, international BD",
+    photo: "/src/assets/team/sebastian-zilliacus.jpg"
   }, {
     name: "Anup Pradhan",
     role: "Board Advisor",
     expertise: "Deep AI/ML & Cloud Computing",
-    affiliation: "25+ years leveraging deep technical and research expertise. Deep AI/ML, cloud computing, data warehousing systems and big data workflow architecture"
+    affiliation: "25+ years leveraging deep technical and research expertise. Deep AI/ML, cloud computing, data warehousing systems and big data workflow architecture",
+    photo: "/src/assets/team/anup-pradhan.jpg"
   }, {
     name: "Alex Gummenscheimer",
     role: "Board Advisor",
     expertise: "Medical R&D & Investments",
-    affiliation: "Entrepreneurial experience across medical, R&D and investments. Expertise in finance, investments management, market mapping and value-creating strategies"
+    affiliation: "Entrepreneurial experience across medical, R&D and investments. Expertise in finance, investments management, market mapping and value-creating strategies",
+    photo: "/src/assets/team/alex-gummenscheimer.jpg"
   }, {
     name: "Russell Woo",
     role: "Board Advisor",
     expertise: "Strategic Partnerships & Growth",
-    affiliation: "Strategic partnerships and product-led/scalable growth in healthcare, fitness, and public sector. Expertise in data-driven strategies to solve commercial challenges and drive business results"
+    affiliation: "Strategic partnerships and product-led/scalable growth in healthcare, fitness, and public sector. Expertise in data-driven strategies to solve commercial challenges and drive business results",
+    photo: "/src/assets/team/russell-woo.jpg"
   }];
   const medicalExperts = [{
     name: "Dr. K. Narayanan",
     role: "Medical Domain Expert",
     expertise: "Nephrology & Transplant",
-    affiliation: "Senior Consultant Nephrologist and Transplant Physician. 25+ years of experience, supervising 5000+ Dialysis sessions and establishments, 28 Dialysis centres"
+    affiliation: "Senior Consultant Nephrologist and Transplant Physician. 25+ years of experience, supervising 5000+ Dialysis sessions and establishments, 28 Dialysis centres",
+    photo: "/src/assets/team/narayanan.jpg"
   }, {
     name: "Dr. Christopher Lai",
     role: "Medical Domain Expert",
     expertise: "Medical Imaging & Radiography",
-    affiliation: "30+ years of clinical and research experience in medical imaging. Programme Leader, Diagnostic Radiography at ST. Author of 70+ publications"
+    affiliation: "30+ years of clinical and research experience in medical imaging. Programme Leader, Diagnostic Radiography at ST. Author of 70+ publications",
+    photo: "/src/assets/team/christopher-lai.jpg"
   }, {
     name: "Dr. Varun Reddy",
     role: "Medical Domain Expert",
     expertise: "Orthopaedics & Surgical Research",
-    affiliation: "15+ years of surgical and medical research experience. Specializes in orthopaedics, hand, trauma and plastic surgery"
+    affiliation: "15+ years of surgical and medical research experience. Specializes in orthopaedics, hand, trauma and plastic surgery",
+    photo: "/src/assets/team/varun-reddy.jpg"
   }];
   return <div className="min-h-screen bg-background">
       <Navigation />
@@ -112,7 +114,7 @@ const Team = () => {
             </div>
 
             {/* Team Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+            <div className="grid grid-cols-2 gap-8 mt-12">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">135+</div>
                 <div className="text-sm text-muted-foreground">Years Combined Experience</div>
@@ -120,14 +122,6 @@ const Team = () => {
               <div className="text-center">
                 <div className="text-3xl font-bold text-secondary mb-2">12</div>
                 <div className="text-sm text-muted-foreground">Industry Experts</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">5000+</div>
-                <div className="text-sm text-muted-foreground">Clinical Sessions Supervised</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-warning mb-2">70+</div>
-                <div className="text-sm text-muted-foreground">Publications</div>
               </div>
             </div>
           </div>
@@ -156,7 +150,12 @@ const Team = () => {
               animationDelay: `${index * 0.1}s`
             }}>
                   <CardHeader>
-                    <div className="flex items-start justify-between">
+                    <div className="flex items-start gap-4">
+                      <img 
+                        src={member.photo} 
+                        alt={member.name}
+                        className="w-24 h-24 rounded-full object-cover border-4 border-primary/20"
+                      />
                       <div className="flex-1">
                         <CardTitle className="text-xl text-foreground group-hover:text-primary transition-smooth">
                           {member.name}
@@ -168,18 +167,18 @@ const Team = () => {
                           <Badge variant="secondary">{member.specialization}</Badge>
                           <Badge variant="outline">{member.experience}</Badge>
                         </div>
-                      </div>
-                      <div className="flex space-x-2">
-                        <a href="https://www.linkedin.com/company/aimitari-medtech-pte-ltd" target="_blank" rel="noopener noreferrer">
-                          <Button size="icon" variant="outline" className="hover:bg-primary hover:text-white">
-                            <Linkedin className="h-4 w-4" />
-                          </Button>
-                        </a>
-                        <a href="mailto:info@aimitari.com">
-                          <Button size="icon" variant="outline" className="hover:bg-primary hover:text-white">
-                            <Mail className="h-4 w-4" />
-                          </Button>
-                        </a>
+                        <div className="flex space-x-2">
+                          <a href="https://www.linkedin.com/company/aimitari-medtech-pte-ltd" target="_blank" rel="noopener noreferrer">
+                            <Button size="icon" variant="outline" className="hover:bg-primary hover:text-white">
+                              <Linkedin className="h-4 w-4" />
+                            </Button>
+                          </a>
+                          <a href="mailto:info@aimitari.com">
+                            <Button size="icon" variant="outline" className="hover:bg-primary hover:text-white">
+                              <Mail className="h-4 w-4" />
+                            </Button>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </CardHeader>
@@ -199,7 +198,7 @@ const Team = () => {
                     </p>
 
                     <div className="space-y-2">
-                      <div className="text-sm font-medium text-foreground">Key Achievements:</div>
+                      <div className="text-sm font-medium text-foreground">Career Highlights:</div>
                       <div className="grid grid-cols-1 gap-1">
                         {member.achievements.map((achievement, idx) => <div key={idx} className="flex items-center text-sm text-muted-foreground">
                             <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2"></div>
@@ -231,9 +230,11 @@ const Team = () => {
               animationDelay: `${index * 0.1}s`
             }}>
                   <CardContent className="pt-6">
-                    <div className="w-16 h-16 bg-gradient-medical rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Users className="h-8 w-8 text-white" />
-                    </div>
+                    <img 
+                      src={advisor.photo} 
+                      alt={advisor.name}
+                      className="w-24 h-24 rounded-full object-cover border-4 border-primary/20 mx-auto mb-4"
+                    />
                     <h3 className="text-xl font-semibold text-foreground mb-2">
                       {advisor.name}
                     </h3>
@@ -270,9 +271,11 @@ const Team = () => {
               animationDelay: `${index * 0.15}s`
             }}>
                   <CardContent className="pt-6">
-                    <div className="w-16 h-16 bg-gradient-medical rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Award className="h-8 w-8 text-white" />
-                    </div>
+                    <img 
+                      src={expert.photo} 
+                      alt={expert.name}
+                      className="w-24 h-24 rounded-full object-cover border-4 border-primary/20 mx-auto mb-4"
+                    />
                     <h3 className="text-xl font-semibold text-foreground mb-2">
                       {expert.name}
                     </h3>

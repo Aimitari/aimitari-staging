@@ -16,19 +16,19 @@ const ProductCardiovascular = () => {
           <div className="container-medical">
             <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
               <Badge variant="secondary" className="mb-4 bg-white/20 text-white border-white/30">
-                TeleCardia ECG
+                Telecardia ECG
               </Badge>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                TeleCardia ECG & Telemedicine Systems
+                Telecardia ECG & Telemedicine Systems
               </h1>
               <p className="text-2xl font-semibold opacity-95 mb-4">
                 Making ECG as simple as taking blood pressure
               </p>
               <p className="text-xl opacity-90 mb-8">
-                This device, patented by Parsys, allows healthcare professionals to quickly acquire and transmit a patient's electrocardiogram without the constraints of a conventional device. TeleCardia is portable, compact and lightweight, with fixed thoracic electrodes, without consumables.
+                This device, patented by Parsys, allows healthcare professionals to quickly acquire and transmit a patient's electrocardiogram without the constraints of a conventional device. Telecardia is portable, compact and lightweight, with fixed thoracic electrodes, without consumables.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="mailto:sales@aimitari.com?subject=Pricing%20Request%20-%20TeleCardia%20ECG%20%26%20Telemedicine%20Systems&body=Hello%20AImitari%20Sales%20Team%2C%0A%0AI%20am%20interested%20in%20learning%20more%20about%20pricing%20for%20the%20TeleCardia%20ECG%20%26%20Telemedicine%20Systems.%0A%0APlease%20provide%20details%20at%20your%20earliest%20convenience.%0A%0AThank%20you.">
+                <a href="mailto:sales@aimitari.com?subject=Pricing%20Request%20-%20Telecardia%20ECG%20%26%20Telemedicine%20Systems&body=Hello%20AImitari%20Sales%20Team%2C%0A%0AI%20am%20interested%20in%20learning%20more%20about%20pricing%20for%20the%20Telecardia%20ECG%20%26%20Telemedicine%20Systems.%0A%0APlease%20provide%20details%20at%20your%20earliest%20convenience.%0A%0AThank%20you.">
                   <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
                     Request Pricing
                   </Button>
@@ -52,7 +52,7 @@ const ProductCardiovascular = () => {
                   12-Channel Electrocardiograph
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  TeleCardia is a Class IIA 12-channel electrocardiograph (ECG) device designed for temporary use. 
+                  Telecardia is a Class IIA 12-channel electrocardiograph (ECG) device designed for temporary use. 
                   It provides comprehensive cardiac monitoring with fixed thoracic electrodes and deployable arms, 
                   eliminating the need for disposable electrodes.
                 </p>
@@ -64,7 +64,7 @@ const ProductCardiovascular = () => {
               <div className="bg-muted/30 rounded-2xl p-8 flex items-center justify-center min-h-[400px]">
                 <img 
                   src={telecardiaDevice} 
-                  alt="TeleCardia ECG device being held by healthcare professional" 
+                  alt="Telecardia ECG device being held by healthcare professional" 
                   className="w-full h-full object-contain rounded-xl"
                 />
               </div>
@@ -230,16 +230,16 @@ const ProductCardiovascular = () => {
           <div className="container-medical text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
             <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-              Contact our team to learn more about pricing, implementation, and how TeleCardia ECG 
+              Contact our team to learn more about pricing, implementation, and how Telecardia ECG 
               can transform your cardiovascular monitoring capabilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:sales@aimitari.com?subject=Sales%20Inquiry%20-%20TeleCardia%20ECG%20%26%20Telemedicine%20Systems&body=Hello%20AImitari%20Sales%20Team%2C%0A%0AI%20would%20like%20to%20discuss%20the%20TeleCardia%20ECG%20%26%20Telemedicine%20Systems%20for%20my%20organization.%0A%0APlease%20contact%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you.">
+              <a href="mailto:sales@aimitari.com?subject=Sales%20Inquiry%20-%20Telecardia%20ECG%20%26%20Telemedicine%20Systems&body=Hello%20AImitari%20Sales%20Team%2C%0A%0AI%20would%20like%20to%20discuss%20the%20Telecardia%20ECG%20%26%20Telemedicine%20Systems%20for%20my%20organization.%0A%0APlease%20contact%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you.">
                 <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
                   Contact Sales
                 </Button>
               </a>
-              <a href="/TeleCardia_Brochure.pdf" download="AImitari_TeleCardia_Brochure.pdf">
+              <a href="/Telecardia_Brochure.pdf" download="AImitari_Telecardia_Brochure.pdf">
                 <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
                   Download Brochure
                 </Button>

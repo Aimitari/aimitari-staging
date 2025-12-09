@@ -10,7 +10,7 @@ const Products = () => {
   const strategicProducts = [{
     id: "cardiovascular",
     icon: Activity,
-    title: "TeleCardia ECG & Telemedicine Systems",
+    title: "Telecardia ECG & Telemedicine Systems",
     description: "Making ECG as simple as taking blood pressure. Portable 12-channel electrocardiograph with rapid transmission.",
     features: ["15-second acquisition", "No disposable electrodes", "Bluetooth transmission", "350+ ECG traces per charge"],
     status: "Available",

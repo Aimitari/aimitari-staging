@@ -1,6 +1,6 @@
 # AImitari Website
 
-This is the official website for AImitari, showcasing our innovative medical technology products including the A2FO Pump System, TeleCardia Cardiovascular Monitoring System, and FormeBuds Intelligent Earbuds.
+This is the official website for AImitari, showcasing our innovative medical technology products including the A2FO Pump System, Telecardia Cardiovascular Monitoring System, and FormeBuds Intelligent Earbuds.
 
 ## About AImitari
 

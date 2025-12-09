@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Award, ArrowRight, Briefcase, GraduationCap } from "lucide-react";
+import { Users, ArrowRight, Briefcase } from "lucide-react";
 import { Link } from "react-router-dom";
 const TeamPreviewSection = () => {
   const teamHighlights = [{
@@ -13,16 +13,6 @@ const TeamPreviewSection = () => {
     value: "12",
     label: "Industry Experts",
     color: "text-secondary"
-  }, {
-    icon: Award,
-    value: "5000+",
-    label: "Clinical Sessions",
-    color: "text-accent"
-  }, {
-    icon: GraduationCap,
-    value: "70+",
-    label: "Publications",
-    color: "text-warning"
   }];
   return <section className="section-padding bg-gradient-to-br from-muted/20 via-background to-muted/20">
       <div className="container-medical">
@@ -40,7 +30,7 @@ const TeamPreviewSection = () => {
         </div>
 
         {/* Team Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-2 gap-6 mb-12">
           {teamHighlights.map((highlight, index) => <Card key={index} className="text-center p-6 bg-gradient-card shadow-soft hover:shadow-medical transition-smooth animate-scale-in" style={{
           animationDelay: `${index * 0.1}s`
         }}>
@@ -95,7 +85,7 @@ const TeamPreviewSection = () => {
       }}>
           <Link to="/team">
             <Button size="lg" className="btn-medical group">
-              Meet the Full Team
+              Meet the Team
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
           </Link>
