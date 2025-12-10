@@ -80,12 +80,32 @@ const HeroSection = () => {
                 </Button>
               </a>
               
-              <a href="https://www.aimitari.com/intro-29-01-2025.mp4" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="btn-outline-medical group">
-                  <Play className="mr-2 h-5 w-5" />
-                  Watch Introduction
-                </Button>
-              </a>
+              <div className="relative">
+                <video 
+                  className="w-full max-w-md h-48 rounded-lg shadow-medical cursor-pointer hover:shadow-lg transition-shadow"
+                  autoPlay 
+                  muted 
+                  loop 
+                  playsInline
+                  onClick={(e) => {
+                    const video = e.target as HTMLVideoElement;
+                    if (video.requestFullscreen) {
+                      video.requestFullscreen();
+                      video.muted = false;
+                      video.currentTime = 0;
+                      video.play();
+                    }
+                  }}
+                >
+                  <source src="https://www.aimitari.com/intro-29-01-2025.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="bg-black/50 rounded-full p-3">
+                    <Play className="h-6 w-6 text-white" />
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Stats */}
