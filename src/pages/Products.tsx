@@ -13,7 +13,7 @@ const Products = () => {
     title: "Telecardia ECG & Telemedicine Systems",
     description: "Making ECG as simple as taking blood pressure. Portable 12-channel electrocardiograph with rapid transmission.",
     features: ["15-second acquisition", "No disposable electrodes", "Bluetooth transmission", "350+ ECG traces per charge"],
-    status: "Available",
+    status: "Market Ready",
     category: "Cardiovascular",
     link: "/products/cardiovascular"
   }, {
