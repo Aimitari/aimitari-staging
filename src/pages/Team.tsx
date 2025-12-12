@@ -82,14 +82,12 @@ const Team = () => {
     name: "Dr. Christopher Lai",
     role: "Medical Domain Expert",
     expertise: "Medical Imaging & Radiography",
-    affiliation: "30+ years of clinical and research experience in medical imaging. Programme Leader, Diagnostic Radiography at ST. Author of 70+ publications",
-    photo: "/src/assets/team/christopher-lai.jpg"
+    affiliation: "30+ years of clinical and research experience in medical imaging. Programme Leader, Diagnostic Radiography at ST. Author of 70+ publications"
   }, {
     name: "Dr. Varun Reddy",
     role: "Medical Domain Expert",
     expertise: "Orthopaedics & Surgical Research",
-    affiliation: "15+ years of surgical and medical research experience. Specializes in orthopaedics, hand, trauma and plastic surgery",
-    photo: "/src/assets/team/varun-reddy.jpg"
+    affiliation: "15+ years of surgical and medical research experience. Specializes in orthopaedics, hand, trauma and plastic surgery"
   }];
   return <div className="min-h-screen bg-background">
       <Navigation />
@@ -271,11 +269,13 @@ const Team = () => {
               animationDelay: `${index * 0.15}s`
             }}>
                   <CardContent className="pt-6">
-                    <img 
-                      src={expert.photo} 
-                      alt={expert.name}
-                      className="w-24 h-24 rounded-full object-cover border-4 border-primary/20 mx-auto mb-4"
-                    />
+                    {expert.photo && (
+                      <img 
+                        src={expert.photo} 
+                        alt={expert.name}
+                        className="w-24 h-24 rounded-full object-cover border-4 border-primary/20 mx-auto mb-4"
+                      />
+                    )}
                     <h3 className="text-xl font-semibold text-foreground mb-2">
                       {expert.name}
                     </h3>
