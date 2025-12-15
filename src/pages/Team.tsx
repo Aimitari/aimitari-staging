@@ -49,25 +49,25 @@ const Team = () => {
   }];
   const advisors = [{
     name: "Sebastian Zilliacus",
-    role: "Board Advisor",
+    role: "Advisor",
     expertise: "Tech Startups & International BD",
     affiliation: "20+ years driving tech startups to successful listings. Expertise in social networks, e-commerce, international BD",
     photo: "/src/assets/team/sebastian-zilliacus.jpg"
   }, {
     name: "Anup Pradhan",
-    role: "Board Advisor",
+    role: "Advisor",
     expertise: "Deep AI/ML & Cloud Computing",
     affiliation: "25+ years leveraging deep technical and research expertise. Deep AI/ML, cloud computing, data warehousing systems and big data workflow architecture",
     photo: "/src/assets/team/anup-pradhan.jpg"
   }, {
-    name: "Alex Gummenscheimer",
-    role: "Board Advisor",
+    name: "Alexander Gummenscheimer",
+    role: "Advisor",
     expertise: "Medical R&D & Investments",
     affiliation: "Entrepreneurial experience across medical, R&D and investments. Expertise in finance, investments management, market mapping and value-creating strategies",
     photo: "/src/assets/team/alex-gummenscheimer.jpg"
   }, {
     name: "Russell Woo",
-    role: "Board Advisor",
+    role: "Advisor",
     expertise: "Strategic Partnerships & Growth",
     affiliation: "Strategic partnerships and product-led/scalable growth in healthcare, fitness, and public sector. Expertise in data-driven strategies to solve commercial challenges and drive business results",
     photo: "/src/assets/team/russell-woo.jpg"
@@ -210,12 +210,12 @@ const Team = () => {
           </div>
         </section>
 
-        {/* Advisory Board */}
+        {/* Advisors */}
         <section className="section-padding bg-muted/30">
           <div className="container-medical">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Advisory Board
+                Advisors
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Distinguished advisors providing strategic guidance and industry expertise 
