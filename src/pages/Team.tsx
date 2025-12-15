@@ -79,11 +79,6 @@ const Team = () => {
     affiliation: "Senior Consultant Nephrologist and Transplant Physician. 25+ years of experience, supervising 5000+ Dialysis sessions and establishments, 28 Dialysis centres",
     photo: "/src/assets/team/narayanan.jpg"
   }, {
-    name: "Dr. Christopher Lai",
-    role: "Medical Domain Expert",
-    expertise: "Medical Imaging & Radiography",
-    affiliation: "30+ years of clinical and research experience in medical imaging. Programme Leader, Diagnostic Radiography at ST. Author of 70+ publications"
-  }, {
     name: "Dr. Varun Reddy",
     role: "Medical Domain Expert",
     expertise: "Orthopaedics & Surgical Research",
