@@ -11,9 +11,9 @@ const Team = () => {
     role: "Executive Chairman",
     specialization: "Public & Private Sector Leadership",
     experience: "30+ years",
-    education: "Professor of Business at STI",
-    bio: "More than 30 years of leadership experience in both Public and Private sectors. Appointments include Professor of Business at STI, Founder and Managing Director of Rohde & Schwarz and Centre Director at Singapore EDBI in Germany.",
-    achievements: ["Professor at STI", "Former MD at Rohde & Schwarz", "Centre Director at Singapore EDBI"],
+    education: "Professor of Business at SIT",
+    bio: "More than 30 years of leadership experience in both Public and Private sectors. Appointments include Professor of Business at SIT, Founder and Managing Director of Rohde & Schwarz and Centre Director at Singapore EDB in Germany.",
+    achievements: ["Professor at SIT", "Former MD at Rohde & Schwarz", "Centre Director at Singapore EDB"],
     location: "Singapore",
     photo: "/src/assets/team/lim-boon-huat.jpg"
   }, {
